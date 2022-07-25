@@ -3,10 +3,11 @@
 :root {
   --background-color: #1E1E2E;
   --tab-header-background-color: #303446;
-  --text_color: #CDD6F4;
+  --text-color: #CDD6F4;
   --url-base-color: #8AADF4;
   --url-hover-color: #1E66F5;
 
+  --white: #EFF1F5;
   --blue: #8CAAEE;
   --green: #A6D189;
   --red: #E78284;
@@ -15,7 +16,7 @@
 
 body {
   background: var(--background-color);
-  color: var(--text_color);
+  color: var(--text-color);
 }
 
 body a :not(.nostyle) {
@@ -29,7 +30,7 @@ body a:hover {
 
 
 .swagger-ui {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif
 }
 
@@ -144,6 +145,10 @@ body a:hover {
 
 .swagger-ui img {
   border-style: none
+}
+
+.swagger-ui svg.arrow {
+  color: var(--white);
 }
 
 .swagger-ui svg:not(:root) {
@@ -9277,7 +9282,7 @@ body a:hover {
 }
 
 .swagger-ui .opblock-tag {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 24px;
   margin: 0 0 5px
@@ -9292,7 +9297,7 @@ body a:hover {
 }
 
 .swagger-ui .opblock-tag small {
-  color: var(--text_color);
+  color: var(--text-color);
   flex: 2;
   font-family: sans-serif;
   font-size: 14px;
@@ -9309,7 +9314,7 @@ body a:hover {
 }
 
 .swagger-ui .parameter__type {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 600;
@@ -9422,7 +9427,7 @@ body a:hover {
 
 .swagger-ui .opblock .opblock-section-header>label {
   align-items: center;
-  color: var(--text_color);
+  color: var(--text-color);
   display: flex;
   font-family: sans-serif;
   font-size: 12px;
@@ -9435,7 +9440,7 @@ body a:hover {
 }
 
 .swagger-ui .opblock .opblock-section-header h4 {
-  color: var(--text_color);
+  color: var(--text-color);
   flex: 1;
   font-family: sans-serif;
   font-size: 14px;
@@ -9459,7 +9464,7 @@ body a:hover {
 .swagger-ui .opblock .opblock-summary-path,
 .swagger-ui .opblock .opblock-summary-path__deprecated {
   align-items: center;
-  color: var(--text_color);
+  color: var(--text-color);
   display: flex;
   font-family: monospace;
   font-size: 16px;
@@ -9491,7 +9496,7 @@ body a:hover {
 }
 
 .swagger-ui .opblock .opblock-summary-description {
-  color: var(--text_color);
+  color: var(--text-color);
   flex: 1 1 auto;
   font-family: sans-serif;
   font-size: 13px;
@@ -9692,7 +9697,7 @@ body a:hover {
 }
 
 .swagger-ui .tab li {
-  color: var(--text_color);
+  color: var(--text-color);
   cursor: pointer;
   font-family: sans-serif;
   font-size: 12px;
@@ -9732,7 +9737,7 @@ body a:hover {
 .swagger-ui .opblock-description-wrapper,
 .swagger-ui .opblock-external-docs-wrapper,
 .swagger-ui .opblock-title_normal {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   margin: 0 0 5px;
@@ -9742,7 +9747,7 @@ body a:hover {
 .swagger-ui .opblock-description-wrapper h4,
 .swagger-ui .opblock-external-docs-wrapper h4,
 .swagger-ui .opblock-title_normal h4 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   margin: 0 0 5px
@@ -9751,7 +9756,7 @@ body a:hover {
 .swagger-ui .opblock-description-wrapper p,
 .swagger-ui .opblock-external-docs-wrapper p,
 .swagger-ui .opblock-title_normal p {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px;
   margin: 0
@@ -9794,7 +9799,7 @@ body a:hover {
 
 .swagger-ui .responses-inner h4,
 .swagger-ui .responses-inner h5 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   margin: 10px 0 5px
@@ -9805,7 +9810,7 @@ body a:hover {
 }
 
 .swagger-ui .response-col_status {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px
 }
@@ -9818,7 +9823,7 @@ body a:hover {
 }
 
 .swagger-ui .response-col_links {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px;
   max-width: 40em;
@@ -9918,7 +9923,7 @@ body a:hover {
 }
 
 .swagger-ui .scheme-container .schemes>label {
-  color: var(--text_color);
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
@@ -9947,7 +9952,7 @@ body a:hover {
 }
 
 .swagger-ui .loading-container .loading:after {
-  color: var(--text_color);
+  color: var(--text-color);
   content: "loading";
   font-family: sans-serif;
   font-size: 10px;
@@ -10049,7 +10054,7 @@ body a:hover {
 }
 
 .swagger-ui section h3 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif
 }
 
@@ -10117,7 +10122,7 @@ body a:hover {
   border: 2px solid gray;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -10294,7 +10299,7 @@ body a:hover {
   border: 2px solid #41444e;
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .25);
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -10325,7 +10330,7 @@ body a:hover {
 }
 
 .swagger-ui label {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -10438,7 +10443,7 @@ body a:hover {
   background: hsla(0, 0%, 100%, .8);
   border: none;
   border-radius: 4px;
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 600;
@@ -10476,7 +10481,7 @@ body a:hover {
 }
 
 .swagger-ui .checkbox p {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-style: italic;
   font-weight: 400 !important;
@@ -10552,14 +10557,14 @@ body a:hover {
 
 .swagger-ui .dialog-ux .modal-ux-content p {
   color: #41444e;
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   margin: 0 0 5px
 }
 
 .swagger-ui .dialog-ux .modal-ux-content h4 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -10583,7 +10588,7 @@ body a:hover {
 }
 
 .swagger-ui .dialog-ux .modal-ux-header h3 {
-  color: var(--text_color);
+  color: var(--text-color);
   flex: 1;
   font-family: sans-serif;
   font-size: 20px;
@@ -10593,7 +10598,7 @@ body a:hover {
 }
 
 .swagger-ui .model {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 300;
@@ -10851,7 +10856,7 @@ body a:hover {
 }
 
 .swagger-ui .servers>label {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   margin: -20px 15px 0 0
@@ -10924,7 +10929,7 @@ body a:hover {
 }
 
 .swagger-ui table.headers td {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 300;
@@ -10950,7 +10955,7 @@ body a:hover {
 .swagger-ui table thead tr td,
 .swagger-ui table thead tr th {
   border-bottom: 1px solid rgba(59, 65, 81, .2);
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -10973,7 +10978,7 @@ body a:hover {
 }
 
 .swagger-ui .parameter__name {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -11150,7 +11155,7 @@ body a:hover {
 .swagger-ui .info li,
 .swagger-ui .info p,
 .swagger-ui .info table {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px
 }
@@ -11160,7 +11165,7 @@ body a:hover {
 .swagger-ui .info h3,
 .swagger-ui .info h4,
 .swagger-ui .info h5 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif
 }
 
@@ -11180,7 +11185,7 @@ body a:hover {
 }
 
 .swagger-ui .info .base-url {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 300 !important;
@@ -11189,7 +11194,7 @@ body a:hover {
 }
 
 .swagger-ui .info .title {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 36px;
   margin: 0
@@ -11269,7 +11274,7 @@ body a:hover {
   background-color: #fee;
   border-radius: 4px;
   color: red;
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 12px;
   font-weight: 600;
@@ -11283,7 +11288,7 @@ body a:hover {
 }
 
 .swagger-ui .scopes h2 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: sans-serif;
   font-size: 14px
 }
@@ -11315,7 +11320,7 @@ body a:hover {
 }
 
 .swagger-ui .errors-wrapper .errors h4 {
-  color: var(--text_color);
+  color: var(--text-color);
   font-family: monospace;
   font-size: 14px;
   font-weight: 600;
@@ -11345,7 +11350,7 @@ body a:hover {
 }
 
 .swagger-ui .errors-wrapper hgroup h4 {
-  color: var(--text_color);
+  color: var(--text-color);
   flex: 1;
   font-family: sans-serif;
   font-size: 20px;
