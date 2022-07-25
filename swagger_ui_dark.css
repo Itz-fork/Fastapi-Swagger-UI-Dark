@@ -9683,7 +9683,7 @@ body a:hover {
 
 .swagger-ui .download-url-wrapper .loading,
 .swagger-ui .filter .loading {
-  color: #aaa
+  color: var(--text-color);
 }
 
 .swagger-ui .model-example {
