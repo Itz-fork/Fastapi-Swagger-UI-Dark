@@ -5,10 +5,14 @@ Dark theme for Swagger UI used in Fastapi applications ([swagger-ui-dist](https:
 ## Usage
 You can pass the cdn link to `swagger_css_url` parameter in `get_swagger_ui_html` function in Fastapi
 
+> There are 2 css files,
+> - [swagger_ui_dark.css](assets/swagger_ui_dark.css) - Main css file
+> - [swagger_ui_dark.min.css](assets/swagger_ui_dark.min.css) - Minified version of the 1st one
+
 - **With CDN (jsdelivr)**
     - CDN url:
         ```
-        https://cdn.jsdelivr.net/gh/Itz-fork/Fastapi-Swagger-UI-Dark/swagger_ui_dark.css
+        https://cdn.jsdelivr.net/gh/Itz-fork/Fastapi-Swagger-UI-Dark/assets/swagger_ui_dark.min.css
         ```
     - Example:
         ```python
@@ -18,13 +22,13 @@ You can pass the cdn link to `swagger_css_url` parameter in `get_swagger_ui_html
             openapi_url=app.openapi_url,
             title=f"{app.title} - Swagger UI",
             # swagger_ui_dark.css CDN link
-            swagger_css_url="https://cdn.jsdelivr.net/gh/Itz-fork/Fastapi-Swagger-UI-Dark/swagger_ui_dark.css"
+            swagger_css_url="https://cdn.jsdelivr.net/gh/Itz-fork/Fastapi-Swagger-UI-Dark/assets/swagger_ui_dark.min.css"
         )
         ```
 - **With Github**
     - Raw url:
         ```
-        https://raw.githubusercontent.com/Itz-fork/Fastapi-Swagger-UI-Dark/main/swagger_ui_dark.css
+        https://raw.githubusercontent.com/Itz-fork/Fastapi-Swagger-UI-Dark/main/assets/swagger_ui_dark.min.css
         ```
     - Example:
         ```python
@@ -34,6 +38,6 @@ You can pass the cdn link to `swagger_css_url` parameter in `get_swagger_ui_html
             openapi_url=app.openapi_url,
             title=f"{app.title} - Swagger UI",
             # swagger_ui_dark.css raw url
-            swagger_css_url="https://raw.githubusercontent.com/Itz-fork/Fastapi-Swagger-UI-Dark/main/swagger_ui_dark.css"
+            swagger_css_url="https://raw.githubusercontent.com/Itz-fork/Fastapi-Swagger-UI-Dark/main/assets/swagger_ui_dark.min.css"
         )
         ```
