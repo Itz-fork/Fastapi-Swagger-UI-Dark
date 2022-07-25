@@ -148,7 +148,7 @@ body a:hover {
 }
 
 .swagger-ui svg.arrow {
-  color: var(--white);
+  fill: var(--white);
 }
 
 .swagger-ui svg:not(:root) {
